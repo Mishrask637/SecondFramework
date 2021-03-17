@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53403" started-at="2021-02-20T10:24:09 IST" finished-at="2021-02-20T10:25:03 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53403" started-at="2021-02-20T10:24:09 IST" finished-at="2021-02-20T10:25:03 IST">
+      <class name="com.TestPackage.LoginTestClass">
+        <test-method status="PASS" signature="AppiumstartServer()[pri:0, instance:com.TestPackage.LoginTestClass@704d6e83]" name="AppiumstartServer" is-config="true" duration-ms="10027" started-at="2021-02-20T10:24:09 IST" finished-at="2021-02-20T10:24:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumstartServer -->
+        <test-method status="PASS" signature="initialiseAppium(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestPackage.LoginTestClass@704d6e83]" name="initialiseAppium" is-config="true" duration-ms="14454" started-at="2021-02-20T10:24:19 IST" finished-at="2021-02-20T10:24:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SurajDevice]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[in.amazon.mShop.android.shopping]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.amazon.mShop.home.HomeActivity]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[RZ8N92QX07Z]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[uiautomator2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseAppium -->
+        <test-method status="PASS" signature="testconstructor()[pri:0, instance:com.TestPackage.LoginTestClass@704d6e83]" name="testconstructor" is-config="true" duration-ms="272" started-at="2021-02-20T10:24:34 IST" finished-at="2021-02-20T10:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testconstructor -->
+        <test-method status="PASS" signature="start()[pri:1, instance:com.TestPackage.LoginTestClass@704d6e83]" name="start" duration-ms="17404" started-at="2021-02-20T10:24:34 IST" finished-at="2021-02-20T10:24:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+      </class> <!-- com.TestPackage.LoginTestClass -->
+      <class name="com.TestPackage.OrderBookTest">
+        <test-method status="PASS" signature="testconstructor()[pri:0, instance:com.TestPackage.OrderBookTest@43a0cee9]" name="testconstructor" is-config="true" duration-ms="106" started-at="2021-02-20T10:24:52 IST" finished-at="2021-02-20T10:24:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testconstructor -->
+        <test-method status="PASS" signature="start()[pri:1, instance:com.TestPackage.OrderBookTest@43a0cee9]" name="start" duration-ms="8909" started-at="2021-02-20T10:24:52 IST" finished-at="2021-02-20T10:25:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.TestPackage.OrderBookTest@43a0cee9]" name="quit" is-config="true" duration-ms="2180" started-at="2021-02-20T10:25:01 IST" finished-at="2021-02-20T10:25:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.TestPackage.OrderBookTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

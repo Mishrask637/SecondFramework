@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="appPackage" value="in.amazon.mShop.android.shopping"/>
+    <parameter name="appActivity" value="com.amazon.mShop.home.HomeActivity"/>
+    <parameter name="noReset" value="true"/>
+    <parameter name="platformVersion" value="10"/>
+    <parameter name="automationName" value="uiautomator2"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="RZ8N92QX07Z"/>
+    <parameter name="deviceName" value="SurajDevice"/>
+    <classes>
+      <class name="com.TestPackage.OrderBookTest">
+        <methods>
+          <include name="start"/>
+          <include name="quit"/>
+          <include name="testconstructor"/>
+        </methods>
+      </class> <!-- com.TestPackage.OrderBookTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
